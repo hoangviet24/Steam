@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SteamNextGen.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SteamNextGen.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\dropdown\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\dropdown\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js",
+      "PackagePath": "staticwebassets\\assets\\dropdown\\js\\navbar-dropdown.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\formoid\\formoid.min.js",
+      "PackagePath": "staticwebassets\\assets\\formoid\\formoid.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",
+      "PackagePath": "staticwebassets\\assets\\mobirise\\css\\mbr-additional.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.css",
+      "PackagePath": "staticwebassets\\assets\\parallax\\jarallax.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.js",
+      "PackagePath": "staticwebassets\\assets\\parallax\\jarallax.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\smoothscroll\\smooth-scroll.js",
+      "PackagePath": "staticwebassets\\assets\\smoothscroll\\smooth-scroll.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\css\\styles.css",
+      "PackagePath": "staticwebassets\\assets\\socicon\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.eot",
+      "PackagePath": "staticwebassets\\assets\\socicon\\fonts\\socicon.eot"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.svg",
+      "PackagePath": "staticwebassets\\assets\\socicon\\fonts\\socicon.svg"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.ttf",
+      "PackagePath": "staticwebassets\\assets\\socicon\\fonts\\socicon.ttf"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff",
+      "PackagePath": "staticwebassets\\assets\\socicon\\fonts\\socicon.woff"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff2",
+      "PackagePath": "staticwebassets\\assets\\socicon\\fonts\\socicon.woff2"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\theme\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\theme\\css\\style.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\theme\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\theme\\js\\script.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
+      "PackagePath": "staticwebassets\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\ytplayer\\index.js",
+      "PackagePath": "staticwebassets\\assets\\ytplayer\\index.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SteamNextGen.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SteamNextGen.props",
+      "PackagePath": "build\\SteamNextGen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SteamNextGen.props",
+      "PackagePath": "buildMultiTargeting\\SteamNextGen.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SteamNextGen.props",
+      "PackagePath": "buildTransitive\\SteamNextGen.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

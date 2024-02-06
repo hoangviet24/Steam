@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/assets/Image/home.png" type="image/x-icon">
     <link rel="stylesheet" href="~/css/site.css"/>
     <title>@ViewData["Title"] - Steam</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SteamNextGen.styles.css" asp-append-version="true" />
 </head>
@@ -29,6 +30,43 @@
                     <form class="d-flex">
                         <a class="navbar-brand" href="/HTML/Login.html"><img width="30px" src="~/assets/Image/Avatar.png"></a>
                         <a href="/HTML/Library.html"><button class="btn btn-primary" type="button">Library</button></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav style="margin-top:30px" class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a style="font-size: 15px;" class="navbar-brand" asp-controller="Product" asp-action="Shop">Trang chủ của bạn</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mới & đáng chú ý
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" asp-controller="Product" asp-action="TopSale">Bán chạy nhất</a></li>
+                                <li><a class="dropdown-item" asp-controller="Product" asp-action="TopPlay">Chơi nhiều nhất</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Danh mục
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/HTML/Traphi.html">Trả phí</a></li>
+                                <li><a class="dropdown-item" href="/HTML/Free.html">Miễn phí</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Tin tức</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Tìm kiếm...">
+                        <button class="btn btn-primary" type="button">Search</button>
                     </form>
                 </div>
             </div>

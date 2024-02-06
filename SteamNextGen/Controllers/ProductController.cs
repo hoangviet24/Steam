@@ -23,7 +23,15 @@ namespace SteamNextGen.Controllers
         }
         public IActionResult Shop()
         {
+            return View(_productRepository.GetTrendingProducts());
+        }
+        public IActionResult TopPlay()
+        {
             return View(_productRepository.GetTopPlayProducts());
+        }
+        public IActionResult TopSale()
+        {
+            return View(_productRepository.GetTopSaleProducts());
         }
     }
 }

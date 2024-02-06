@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9CC4UnNUZumZKnbOKq4ywVQJMRw2EZ+K43c1EBQdYkY=",
+  "Hash": "CiRys3Ck4D5LdlgYLAeIIBLuIS2u1NPLYw5up++IBiI=",
   "Source": "SteamNextGen",
   "BasePath": "_content/SteamNextGen",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\formoid\\formoid.min.js"
+    },
+    {
+      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
+      "SourceId": "SteamNextGen",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "BasePath": "_content/SteamNextGen",
+      "RelativePath": "assets/Image/home.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Image\\home.png"
     },
     {
       "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",

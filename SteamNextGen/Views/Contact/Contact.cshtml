@@ -14,10 +14,11 @@
             <textarea type="text" asp-for="Mess" class="form-control" rows="5" placeholder="Message" required=""></textarea>
         </div>
         <div class="mbr-section-btn align-center">
-            <button asp-controller="Contact" asp-action="ContactComplete" type="submit" class="btn btn-primary display-4">
-                Send
-            </button>
-
+            <a asp-controller="Contact" asp-action="ContactComplete" style="color:white;text-decoration:none">
+                <button type="submit" class="btn btn-primary display-4">
+                    Send
+                </button>
+            </a>
         </div>
     </div>
 

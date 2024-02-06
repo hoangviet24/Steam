@@ -1,53 +1,15 @@
 ﻿@model IEnumerable<SteamNextGen.Models.Product>
-<nav style="margin-top:30px" class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a style="font-size: 15px;" class="navbar-brand" href="javascript:void(0)"><img width="30px" src="~/assets/Image/Avatar.png"> Trang chủ của bạn</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mới & đáng chú ý
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="/HTML/TopSale.html">Bán chạy nhất</a></li>
-                        <li><a class="dropdown-item" href="/HTML/TopPlay.html">Chơi nhiều nhất</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Danh mục
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="/HTML/Traphi.html">Trả phí</a></li>
-                        <li><a class="dropdown-item" href="/HTML/Free.html">Miễn phí</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Tin tức</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="Tìm kiếm...">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
-        </div>
-    </div>
-</nav>
-
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div style="margin-left: 120px;" class="carousel-inner">
+    <div  class="carousel-inner">
         @{
             var index = 0;
         }
         @foreach (var item in Model)
         {
             <div class="carousel-item @(index == 0 ? "active" : "")" data-bs-interval="3000">
-                <a  class="link-offset-2 link-underline link-underline-opacity-0" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-                    <div ><img src="@item.ImageUrl" class="d-block w-50 w-sm-100" alt="..."></div>
+                <img width="65%" height="300px" src="@item.ImageUrl" class="d-block w-sm-100">
                     <div class="text">
+                        <a class="link-offset-2 link-underline link-underline-opacity-0" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
                         <h3>@item.Name</h3>
                         @if (item.Price != 0)
                         {
@@ -55,11 +17,12 @@
                         }
                         else
                         {
-                            <p>Giá tiền: Free</p>
+                            <p>Free to play</p>
                         }
+                    </a>
                     </div>
 
-                </a>
+               
             </div>
 
             index++;
@@ -81,7 +44,7 @@
         {
             <div class="col">
                 <a asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-                    <img width="100px" class="ImgGamehot" src="@item.ImageUrl" alt="">
+                    <img width="150px" class="ImgGamehot" src="@item.ImageUrl" alt="">
                     <h4>@item.Name</h4>
                     @if (item.Price != 0)
                     {
@@ -89,7 +52,7 @@
                     }
                     else
                     {
-                        <p>Giá tiền: Free</p>
+                        <p>Free to play</p>
                     }
                 </a>
                 

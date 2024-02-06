@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SteamNextGen.bundle.scp.css"
     },
     {
+      "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
+      "PackagePath": "staticwebassets\\assets\\Image\\home.png"
+    },
+    {
       "Id": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
     },

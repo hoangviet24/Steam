@@ -8,6 +8,7 @@ namespace SteamNextGen.Controllers
     {
 
         public IProductRepository _productRepository;
+
         public ProductController(IProductRepository productRepository)
         {
             this._productRepository = productRepository;
@@ -32,6 +33,14 @@ namespace SteamNextGen.Controllers
         public IActionResult TopSale()
         {
             return View(_productRepository.GetTopSaleProducts());
+        }
+        public IActionResult P2P()
+        {
+            return View(_productRepository.GetTopPlayProducts());
+        }
+        public IActionResult F2P()
+        {
+            return View(_productRepository.GetTopPlayProducts());
         }
     }
 }

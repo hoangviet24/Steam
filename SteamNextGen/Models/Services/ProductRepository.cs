@@ -18,11 +18,13 @@ namespace SteamNextGen.Models.Services
         {
             return dbContext.Product.FirstOrDefault(p => p.Id == id);
         }
-
+        
         public IEnumerable<Product> GetTopPlayProducts() => dbContext.Product.Where(p => p.isTopPlayProduct);
 
         public IEnumerable<Product> GetTopSaleProducts() => dbContext.Product.Where(p => p.isTopSaleProduct);
 
         public IEnumerable<Product> GetTrendingProducts() => dbContext.Product.Where(p => p.isTrendingProduct);
+
+        public IEnumerable<Product> GetSellProducts() => dbContext.Product.Where(p => p.Price != 0);
     }
 }

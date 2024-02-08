@@ -38,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#/SteamNextGen/SteamNextGen/Views/Product/F2P.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxGMlAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/SteamNextGen/SteamNextGen/Views/Product/P2P.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQMlAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#/SteamNextGen/SteamNextGen/Views/Product/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

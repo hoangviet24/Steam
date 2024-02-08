@@ -6,6 +6,8 @@
         IEnumerable<Product> GetTrendingProducts();
         IEnumerable<Product> GetTopSaleProducts();
         IEnumerable<Product> GetTopPlayProducts();
+        IEnumerable<Product> GetSellProducts();
+        IEnumerable<Product> GetFreeProducts();
         Product GetProductDetail(int id);
     }
 }

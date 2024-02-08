@@ -26,5 +26,6 @@ namespace SteamNextGen.Models.Services
         public IEnumerable<Product> GetTrendingProducts() => dbContext.Product.Where(p => p.isTrendingProduct);
 
         public IEnumerable<Product> GetSellProducts() => dbContext.Product.Where(p => p.Price != 0);
+        public IEnumerable<Product> GetFreeProducts() => dbContext.Product.Where(p => p.Price == 0);
     }
 }

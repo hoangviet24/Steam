@@ -36,11 +36,11 @@ namespace SteamNextGen.Controllers
         }
         public IActionResult P2P()
         {
-            return View(_productRepository.GetTopPlayProducts());
+            return View(_productRepository.GetSellProducts());
         }
         public IActionResult F2P()
         {
-            return View(_productRepository.GetTopPlayProducts());
+            return View(_productRepository.GetFreeProducts());
         }
     }
 }

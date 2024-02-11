@@ -7,9 +7,10 @@
         @foreach (var item in Model)
         {
             <div class="carousel-item @(index == 0 ? "active" : "")" data-bs-interval="3000">
+                <a class="link-offset-2 link-underline link-underline-opacity-0" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
                 <img width="65%" height="300px" src="@item.ImageUrl" class="d-block w-sm-100">
                     <div class="text">
-                        <a class="link-offset-2 link-underline link-underline-opacity-0" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
+                        
                         <h3>@item.Name</h3>
                         @if (item.Price != 0)
                         {
@@ -19,10 +20,8 @@
                         {
                             <p>Free to play</p>
                         }
-                    </a>
                     </div>
-
-               
+                </a>
             </div>
 
             index++;

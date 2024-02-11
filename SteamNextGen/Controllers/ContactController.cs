@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SteamNextGen.Models;
 using SteamNextGen.Models.Interface;
+using System.Net.Mail;
+using System.Net;
 
 namespace SteamNextGen.Controllers
 {

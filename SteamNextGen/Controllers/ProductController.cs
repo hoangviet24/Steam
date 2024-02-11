@@ -24,7 +24,13 @@ namespace SteamNextGen.Controllers
         }
         public IActionResult Shop()
         {
-            return View(_productRepository.GetTrendingProducts());
+            var products = _productRepository.GetTrendingProducts();
+            if(products != null)
+            {
+                return View(_productRepository.GetTrendingProducts());
+            }
+            else
+                return View(_productRepository.GetAllProducts());
         }
         public IActionResult TopPlay()
         {

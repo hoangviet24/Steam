@@ -11,7 +11,7 @@ using SteamNextGen.Data;
 namespace SteamNextGen.Migrations
 {
     [DbContext(typeof(SteamDBContext))]
-    [Migration("20240205142353_FirstCreate")]
+    [Migration("20240218080623_FirstCreate")]
     partial class FirstCreate
     {
         /// <inheritdoc />
@@ -23,6 +23,31 @@ namespace SteamNextGen.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("SteamNextGen.Models.Contact", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mess")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("contact");
+                });
 
             modelBuilder.Entity("SteamNextGen.Models.Product", b =>
                 {

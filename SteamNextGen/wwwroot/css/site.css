@@ -58,7 +58,7 @@ body {
         height: 100%;
     }
     .carousel-inner {
-        min-height: 400px;
+        min-height: 370px;
     }
     .form {
         max-width: 100%;
@@ -68,6 +68,12 @@ body {
 @media (max-width:767px){
     .carousel-inner {
         height: 272px;
+    }
+    .carousel-item{
+        margin-top:100px;
+    }
+    #carouselExampleInterval{
+        margin-top:-100px;
     }
 }
 #carouselExampleInterva{

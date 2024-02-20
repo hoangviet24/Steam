@@ -16,11 +16,8 @@ namespace SteamNextGen.Controllers
         public IActionResult Detail(int id)
         {
             var product = _productRepository.GetProductDetail(id);
-            if (product != null)
-            {
-                return View(product);
-            }
-            return NotFound();
+            return View(product);
+            
         }
         public IActionResult Shop()
         {

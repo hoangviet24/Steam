@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<SteamNextGen.Models.Product>
-<h5 class="title">Chơi nhiều nhất</h5>
+<h5  class="title">Chơi nhiều nhất</h5>
  @foreach (var item in Model){
     <ol class="list-group list-group-numbered">
         <a style="text-decoration:none" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">

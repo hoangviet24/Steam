@@ -70,7 +70,7 @@ body {
         height: 272px;
     }
     .carousel-item{
-        margin-top:100px;
+        margin-top:50px;
     }
     #carouselExampleInterval{
         margin-top:-100px;
@@ -98,4 +98,7 @@ body {
 .text-center a:hover {
     text-decoration: underline;
         color: #b2bec3;
+}
+.title{
+    margin:20px auto;
 }

@@ -7,7 +7,7 @@
 namespace SteamNextGen.Migrations
 {
     /// <inheritdoc />
-    public partial class FirstCreate : Migration
+    public partial class VoHoangViet_FirstCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

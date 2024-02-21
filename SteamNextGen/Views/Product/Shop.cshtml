@@ -1,41 +1,4 @@
 ﻿@model IEnumerable<SteamNextGen.Models.Product>
-@* <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div  class="carousel-inner">
-        @{
-            var index = 0;
-        }
-        @foreach (var item in Model)
-        {
-            <div class="carousel-item @(index == 0 ? "active" : "")" data-bs-interval="3000">
-                <a class="link-offset-2 link-underline link-underline-opacity-0" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-                <img width="65%" height="300px" src="@item.ImageUrl" class="d-block w-sm-100">
-                    <div class="text">
-                        
-                        <h3>@item.Name</h3>
-                        @if (item.Price != 0)
-                        {
-                            <p>Giá tiền: @item.Price.ToString("C")</p>
-                        }
-                        else
-                        {
-                            <p>Free to play</p>
-                        }
-                    </div>
-                </a>
-            </div>
-
-            index++;
-        }
-    </div>
-    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-        <span class="visually-hidden cl-black">Previous</span>
-    </button>
-    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon " aria-hidden="true"></span>
-        <span class="visually-hidden cl-black">Next</span>
-    </button>
-</div> *@
 
 <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-inner">
@@ -58,8 +21,23 @@
                         {
                             <p>Free to play</p>
                         }
+                        <div class="mbr-section-btn pt-3">
+                            @if (item.Price != 0)
+                            {
+                                <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
+                                    <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Buy&nbsp;
+                                </a>
+                            }
+                            else
+                            {
+                                <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
+                                    <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Download&nbsp;
+                                </a>
+                            }
+                        </div>
                     </div>
                 </a>
+                
             </div>
 
             index++;
@@ -82,9 +60,9 @@
     <div class="row">
         @foreach (var item in Model)
         {
-            <div class="col">
+            <div class="col" style="margin-bottom:20px">
                 <a asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-                    <img width="300px" class="ImgGamehot" src="@item.ImageUrl" alt="">
+                    <img height="200px" width="300px" class="ImgGamehot" src="@item.ImageUrl" alt="">
                     <h4>@item.Name</h4>
                     @if (item.Price != 0)
                     {
@@ -95,8 +73,22 @@
                         <p>Free to play</p>
                     }
                 </a>
-                
+                <div class="mbr-section-btn pt-3">
+                    @if (item.Price != 0)
+                    {
+                        <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
+                            <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Buy&nbsp;
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
+                            <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Download&nbsp;
+                        </a>
+                    }
+                </div>
             </div>
+            
         }
     </div>
 </div>

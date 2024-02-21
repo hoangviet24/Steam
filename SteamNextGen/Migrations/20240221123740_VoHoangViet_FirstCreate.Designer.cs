@@ -11,15 +11,15 @@ using SteamNextGen.Data;
 namespace SteamNextGen.Migrations
 {
     [DbContext(typeof(SteamDBContext))]
-    [Migration("20240218080623_FirstCreate")]
-    partial class FirstCreate
+    [Migration("20240221123740_VoHoangViet_FirstCreate")]
+    partial class VoHoangViet_FirstCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.1")
+                .HasAnnotation("ProductVersion", "8.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CiRys3Ck4D5LdlgYLAeIIBLuIS2u1NPLYw5up++IBiI=",
+  "Hash": "4XIERZ20hrpeyQtL2iSktdYL6nZNQVjjh7yTohwbr50=",
   "Source": "SteamNextGen",
   "BasePath": "_content/SteamNextGen",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "SteamNextGen\\wwwroot",
       "Source": "SteamNextGen",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SteamNextGen.styles.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SteamNextGen.styles.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "SteamNextGen.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SteamNextGen.styles.css"
+      "OriginalItemSpec": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\bundle\\SteamNextGen.styles.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SteamNextGen.bundle.scp.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SteamNextGen.bundle.scp.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "SteamNextGen.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\C#\\SteamNextGen\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SteamNextGen.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Steam\\Steam\\SteamNextGen\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SteamNextGen.bundle.scp.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\dropdown\\css\\style.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\dropdown\\css\\style.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/dropdown/css/style.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\dropdown\\css\\style.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/dropdown/js/navbar-dropdown.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\dropdown\\js\\navbar-dropdown.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\formoid\\formoid.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\formoid\\formoid.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/formoid/formoid.min.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\formoid\\formoid.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/Image/home.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Image\\home.png"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/mobirise/css/mbr-additional.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\mobirise\\css\\mbr-additional.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/parallax/jarallax.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\parallax\\jarallax.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\parallax\\jarallax.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/parallax/jarallax.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\parallax\\jarallax.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\smoothscroll\\smooth-scroll.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\smoothscroll\\smooth-scroll.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/smoothscroll/smooth-scroll.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\smoothscroll\\smooth-scroll.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\css\\styles.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\css\\styles.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/css/styles.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\css\\styles.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.eot",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.eot",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/fonts/socicon.eot",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.eot"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.svg",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.svg",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/fonts/socicon.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.svg"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.ttf",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.ttf",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/fonts/socicon.ttf",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.ttf"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/fonts/socicon.woff",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.woff"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff2",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\socicon\\fonts\\socicon.woff2",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/socicon/fonts/socicon.woff2",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\socicon\\fonts\\socicon.woff2"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\theme\\css\\style.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\theme\\css\\style.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/theme/css/style.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\theme\\css\\style.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\theme\\js\\script.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\theme\\js\\script.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/theme/js/script.js",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\theme\\js\\script.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.eot",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.eot"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.svg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.svg"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.ttf",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.ttf"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons2/mobirise2.woff",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons2\\mobirise2.woff"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.eot",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.eot"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.svg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.svg"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.ttf",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.ttf"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.woff",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\web\\assets\\mobirise-icons-bold\\mobirise-icons-bold.woff"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\assets\\ytplayer\\index.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\ytplayer\\index.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "assets/ytplayer/index.js",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\ytplayer\\index.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\css\\site.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\favicon.ico",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\js\\site.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\C#\\SteamNextGen\\SteamNextGen\\wwwroot\\",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

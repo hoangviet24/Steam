@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 using SteamNextGen.Models.Interface;
-
 namespace SteamNextGen.Models.Services
 {
     public class ShoppingCartRepository:IShoppingCartRepository
@@ -33,13 +32,10 @@ namespace SteamNextGen.Models.Services
                 {
                     ShoppingCartId = ShoppingCartId,
                     Product = product,
-                    Qty = 1,
+                   
+                    
                 };
                 dbContext.tttm.Add(shoppingCartItem);
-            }
-            else
-            {
-                shoppingCartItem.Qty++;
             }
             dbContext.SaveChanges();
         }
@@ -59,7 +55,7 @@ namespace SteamNextGen.Models.Services
         {
             var totalCost = dbContext.tttm.Where(s => s.ShoppingCartId ==
            ShoppingCartId)
-            .Select(s => s.Product.Price * s.Qty).Sum();
+            .Select(s => s.Product.Price).Sum();
             return (decimal)totalCost;
         }
         public int RemoveFromCart(Product product)
@@ -71,7 +67,7 @@ namespace SteamNextGen.Models.Services
             {
                 if (shoppingCartItem.Qty > 1)
                 {
-                    shoppingCartItem.Qty--;
+                    shoppingCartItem.Qty = shoppingCartItem.Qty - shoppingCartItem.Qty;
                     quantity = shoppingCartItem.Qty;
                 }
                 else

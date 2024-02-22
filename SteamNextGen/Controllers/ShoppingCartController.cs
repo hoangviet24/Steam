@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SteamNextGen.Models.Interface;
-
 namespace SteamNextGen.Controllers
 {
     public class ShoppingCartController : Controller

@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 using SteamNextGen.Models.Interface;
 using SteamNextGen.Models.Services;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

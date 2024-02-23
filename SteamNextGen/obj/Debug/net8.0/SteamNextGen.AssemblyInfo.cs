@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b448dae9c49e0b94c0c49cb82ec04b3938290d3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b775cb1f98beb1c60bfcb67195fbb74d8e4602da")]
 [assembly: System.Reflection.AssemblyProductAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

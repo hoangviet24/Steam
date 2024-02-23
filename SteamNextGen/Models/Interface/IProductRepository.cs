@@ -8,6 +8,7 @@
         IEnumerable<Product> GetTopPlayProducts();
         IEnumerable<Product> GetSellProducts();
         IEnumerable<Product> GetFreeProducts();
+        public IEnumerable<Product> SearchProductByName(string productname);
         Product GetProductDetail(int id);
     }
 }

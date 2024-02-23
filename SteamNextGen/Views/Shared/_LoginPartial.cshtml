@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+    <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-user-circle-o color-white" aria-hidden="true"></i>
+                @user.UserName
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout">Logout</a></li>
+                <li><a class="dropdown-item" asp-controller="Product" asp-action="Library">Library</a></li>
+            </ul>
+        </li>
+    </ul>
+    }
+    else
+    {
+    <button style="margin-right:20px" type="button" class="btn btn-secondary"><a class="text-black  link-underline link-underline-opacity-0" asp-area="Identity" asp-page="/Account/Login">Login</a></button>
+    }
+

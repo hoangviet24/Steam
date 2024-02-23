@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 using SteamNextGen.Models.Interface;
 using SteamNextGen.Models.Services;
+using Microsoft.AspNetCore.Identity;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,9 +12,11 @@ builder.Services.AddScoped<IShoppingCartRepository,ShoppingCartRepository >(Shop
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddDbContext<SteamDBContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("SteamDbContextConnection")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<SteamDBContext>();
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
-
+builder.Services.AddRazorPages();
 var app = builder.Build();
 app.UseSession();
 // Configure the HTTP request pipeline.
@@ -26,9 +29,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.MapRazorPages();
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

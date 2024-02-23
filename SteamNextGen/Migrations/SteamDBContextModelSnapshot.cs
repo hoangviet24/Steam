@@ -22,6 +22,204 @@ namespace SteamNextGen.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex")
+                        .HasFilter("[NormalizedName] IS NOT NULL");
+
+                    b.ToTable("AspNetRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
+                });
+
             modelBuilder.Entity("SteamNextGen.Models.Contact", b =>
                 {
                     b.Property<int>("Id")
@@ -148,7 +346,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 1,
                             Detail = "Một tựa game Esport ",
-                            ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGkqocLh0d3WbNv0uW4vZBw1Y9YEbQ7yanVj1gRtDvJqVF_s1-zFr_j9jx2XytTyG5uOYN-77a3MKhLG40MsIX2&_nc_ohc=CqyfYv_aobMAX-6ugc2&_nc_ht=scontent.fsgn8-2.fna&oh=00_AfAnbsKZGpUoeYkr1024liWsxMhrSaHew_N8Av2DZNQglw&oe=65B98B97",
+                            ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=K6GB57jAuzIAX9EjOhL&_nc_ht=scontent.fsgn8-2.fna&oh=00_AfDtcstwEg_V4B9AEClDlJSq0Eyp1amsjhThADTR4PX5dA&oe=65DD2417",
                             Name = "Counter Strike",
                             Price = 0f,
                             isTopPlayProduct = false,
@@ -159,7 +357,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 2,
                             Detail = "Đến từ nhà làm game với kinh nghiệm 200 năm:))",
-                            ImageUrl = "https://www.facebook.com/b3ed0f08-f5d7-406e-a84a-7f42f55156aa",
+                            ImageUrl = "https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/423132886_1837787393338152_4729330446516627735_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qCpbWJe-k7sAX-GrOtH&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDKFHbelOCbpZrV-qhLCIwy0fPlbZY5v7nDvTmfmQjp4g&oe=65DDAE3D",
                             Name = "Leauge of Legend",
                             Price = 0f,
                             isTopPlayProduct = false,
@@ -170,7 +368,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 3,
                             Detail = "Sản phẩm bắn súng hay nhất mọi thời đại",
-                            ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423132207_1837787330004825_4872656706903582606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeG0xN6_PMJyKezhTspFIEZqUrTRBkypF2NStNEGTKkXY-_ypQxXJrq6NHMOTYXghiqCQZWBjFi_3PgBjUp--jhT&_nc_ohc=B6YE300i-PoAX8AGBjN&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCF9OnlJXjYtpeRCGBvh5KFWYnxXlQ30fXCy2uWxE80cw&oe=65B95480",
+                            ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423132207_1837787330004825_4872656706903582606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=M17RdJqPvW0AX-_lsXz&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCwaoOIzfm_A1MX1KbMMKGxCpoiqrUcNzxk0d70s-tV_g&oe=65DCED00",
                             Name = "Call of Duty: MW2",
                             Price = 1039000f,
                             isTopPlayProduct = false,
@@ -181,7 +379,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 4,
                             Detail = "Nơi mà phản diện phải chạy trốn chính diện",
-                            ImageUrl = "https://www.facebook.com/68ebb2aa-6122-49a7-a412-2c293302fd67",
+                            ImageUrl = "https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-6/423160643_1837787333338158_7206239327615406526_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=YJ0yUVfeBCQAX9bO_xN&_nc_ht=scontent.fsgn4-1.fna&oh=00_AfA8GwT6abF2dAGl9lGyD5M3UzKIGCRS5qFH5G-XIhoWlg&oe=65DDBFEF",
                             Name = "DOOM",
                             Price = 750000f,
                             isTopPlayProduct = false,
@@ -192,7 +390,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 5,
                             Detail = "Vị vua ngủ quên",
-                            ImageUrl = "https://www.facebook.com/34eae0fd-4e55-4360-99a4-c077d48eb3f3",
+                            ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423133246_1837787683338123_1472723522760642454_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qXzcqKhIclYAX9kHIrZ&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCyG3IJsLxSMVeISz2WHI__1ltFbXAiaclOLLGdPFNBoQ&oe=65DCD4A3",
                             Name = "PUBG: BATTLE GROUND",
                             Price = 0f,
                             isTopPlayProduct = false,
@@ -223,6 +421,57 @@ namespace SteamNextGen.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("tttm");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SteamNextGen.Models.OrderDetail", b =>

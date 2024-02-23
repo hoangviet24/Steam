@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using SteamNextGen.Models.Interface;
 using SteamNextGen.Models;
 using SteamNextGen.Models.Services;
+using Microsoft.AspNetCore.Authorization;
 namespace coffeeshop.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
         private IOrderRepository orderRepository;
@@ -24,7 +26,9 @@ namespace coffeeshop.Controllers
         {
             orderRepository.PlaceOrder(order);
             shoppingCartRepository.ClearCart();
+            HttpContext.Session.SetInt32("CartCount", 0);
             return RedirectToAction("CheckoutComplete");
+           
         }
         public IActionResult CheckoutComplete()
         {

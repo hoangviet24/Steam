@@ -122,3 +122,16 @@ INSERT INTO [dbo].[Product]
 GO
 
 
+alter table dbo.AspNetUsers add ProductUser int
+go
+-- Tạo khóa ngoại sau khi tạo bảng
+
+ALTER TABLE dbo.AspNetUsers ADD CONSTRAINT FK_PD FOREIGN KEY(ProductUser) REFERENCES dbo.orderDetail(OrderDetailId)
+
+SELECT distinct OS.Email
+FROM orderDetail OD
+INNER JOIN Product P ON OD.ProductId = P.Id
+INNER JOIN orders OS on OS.Id = OD.OrderId
+INNER JOIN AspNetUsers ANU on ANU.Email = OS.Email
+
+delete dbo.orderDetail where orderDetail.OrderId = Product.Id

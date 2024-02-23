@@ -1,0 +1,20 @@
+﻿@model IEnumerable<SteamNextGen.Models.Product>
+@if (@Model.Any())
+{
+    <h5 class="title">Game bạn muốn tìm</h5>
+    @foreach (var item in Model)
+    {
+        <ol class="list-group list-group-numbered">
+            <a style="text-decoration:none" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
+            <li style="background-color:rgba(0,0,0,0.1);color:white" class="list-group-item d-flex justify-content-between">
+                <img width="150px" class="ImgTopsale" src="@item.ImageUrl" alt="">
+                <h4>@item.Name</h4>
+                <p>Free to play</p>
+            </li>
+            </a>
+        </ol>
+    }
+}
+else{
+    <p>Không tim thấy dữ liệu, hãy <a asp-controller="Product" asp-action="Search">Tìm lại</a></p>
+}

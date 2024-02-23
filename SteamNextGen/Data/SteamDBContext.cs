@@ -1,31 +1,27 @@
 ﻿using SteamNextGen.Models;
 using Microsoft.EntityFrameworkCore;
-using static System.Net.WebRequestMethods;
-using System.Reflection.Metadata;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace SteamNextGen.Data
 {
-    public class SteamDBContext : DbContext
+    public class SteamDBContext : IdentityDbContext
     {
-        public SteamDBContext(DbContextOptions<SteamDBContext> options) :base(options)
-        {
-        }
+        public SteamDBContext(DbContextOptions<SteamDBContext> options) : base(options) { }
         public DbSet<Product> Product { get; set; }
         public DbSet<TTTM> tttm { get; set; }
         public DbSet<Order> orders { get; set; }
         public DbSet<OrderDetail> orderDetail { get; set; }
         public DbSet<Contact> contact { get; set; }
-       // public DbSet<Contact> contacts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Product>().HasData(
-            new Product { Id = 1, Name = "Counter Strike", Price = 0, Detail = "Một tựa game Esport ", ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGkqocLh0d3WbNv0uW4vZBw1Y9YEbQ7yanVj1gRtDvJqVF_s1-zFr_j9jx2XytTyG5uOYN-77a3MKhLG40MsIX2&_nc_ohc=CqyfYv_aobMAX-6ugc2&_nc_ht=scontent.fsgn8-2.fna&oh=00_AfAnbsKZGpUoeYkr1024liWsxMhrSaHew_N8Av2DZNQglw&oe=65B98B97" },
-            new Product { Id = 2, Name = "Leauge of Legend", Price = 0, Detail = "Đến từ nhà làm game với kinh nghiệm 200 năm:))", ImageUrl = "https://www.facebook.com/b3ed0f08-f5d7-406e-a84a-7f42f55156aa" },
-            new Product { Id = 3, Name = "Call of Duty: MW2", Price = 1039000, Detail = "Sản phẩm bắn súng hay nhất mọi thời đại", ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423132207_1837787330004825_4872656706903582606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeG0xN6_PMJyKezhTspFIEZqUrTRBkypF2NStNEGTKkXY-_ypQxXJrq6NHMOTYXghiqCQZWBjFi_3PgBjUp--jhT&_nc_ohc=B6YE300i-PoAX8AGBjN&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCF9OnlJXjYtpeRCGBvh5KFWYnxXlQ30fXCy2uWxE80cw&oe=65B95480" },
-            new Product { Id = 4, Name = "DOOM", Price = 750000, Detail = "Nơi mà phản diện phải chạy trốn chính diện", ImageUrl = "https://www.facebook.com/68ebb2aa-6122-49a7-a412-2c293302fd67" },
-            new Product { Id = 5, Name = "PUBG: BATTLE GROUND", Price = 0, Detail = "Vị vua ngủ quên", ImageUrl = "https://www.facebook.com/34eae0fd-4e55-4360-99a4-c077d48eb3f3" }
+            new Product { Id = 1, Name = "Counter Strike", Price = 0, Detail = "Một tựa game Esport ", ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=K6GB57jAuzIAX9EjOhL&_nc_ht=scontent.fsgn8-2.fna&oh=00_AfDtcstwEg_V4B9AEClDlJSq0Eyp1amsjhThADTR4PX5dA&oe=65DD2417" },
+            new Product { Id = 2, Name = "Leauge of Legend", Price = 0, Detail = "Đến từ nhà làm game với kinh nghiệm 200 năm:))", ImageUrl = "https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/423132886_1837787393338152_4729330446516627735_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qCpbWJe-k7sAX-GrOtH&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfDKFHbelOCbpZrV-qhLCIwy0fPlbZY5v7nDvTmfmQjp4g&oe=65DDAE3D" },
+            new Product { Id = 3, Name = "Call of Duty: MW2", Price = 1039000, Detail = "Sản phẩm bắn súng hay nhất mọi thời đại", ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423132207_1837787330004825_4872656706903582606_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=M17RdJqPvW0AX-_lsXz&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCwaoOIzfm_A1MX1KbMMKGxCpoiqrUcNzxk0d70s-tV_g&oe=65DCED00" },
+            new Product { Id = 4, Name = "DOOM", Price = 750000, Detail = "Nơi mà phản diện phải chạy trốn chính diện", ImageUrl = "https://scontent.fsgn4-1.fna.fbcdn.net/v/t39.30808-6/423160643_1837787333338158_7206239327615406526_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=YJ0yUVfeBCQAX9bO_xN&_nc_ht=scontent.fsgn4-1.fna&oh=00_AfA8GwT6abF2dAGl9lGyD5M3UzKIGCRS5qFH5G-XIhoWlg&oe=65DDBFEF" },
+            new Product { Id = 5, Name = "PUBG: BATTLE GROUND", Price = 0, Detail = "Vị vua ngủ quên", ImageUrl = "https://scontent.fsgn13-3.fna.fbcdn.net/v/t39.30808-6/423133246_1837787683338123_1472723522760642454_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=qXzcqKhIclYAX9kHIrZ&_nc_ht=scontent.fsgn13-3.fna&oh=00_AfCyG3IJsLxSMVeISz2WHI__1ltFbXAiaclOLLGdPFNBoQ&oe=65DCD4A3" }
             );
         }
     }

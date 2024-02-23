@@ -1,4 +1,5 @@
-﻿using SteamNextGen.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SteamNextGen.Data;
 using SteamNextGen.Models.Interface;
 
 namespace SteamNextGen.Models.Services
@@ -6,6 +7,8 @@ namespace SteamNextGen.Models.Services
     public class ProductRepository : IProductRepository
     {
         private SteamDBContext dbContext;
+        private int OrderDetailId;
+
         public ProductRepository(SteamDBContext dbContext)
         {
             this.dbContext = dbContext;
@@ -19,6 +22,10 @@ namespace SteamNextGen.Models.Services
             return dbContext.Product.FirstOrDefault(p => p.Id == id);
         }
         
+        public IEnumerable<Product> SearchProductByName(string productname)
+        {
+            return dbContext.Product.Where(p => EF.Functions.Like(p.Name, $"{productname}%")).ToList();
+        }
         public IEnumerable<Product> GetTopPlayProducts() => dbContext.Product.Where(p => p.isTopPlayProduct);
 
         public IEnumerable<Product> GetTopSaleProducts() => dbContext.Product.Where(p => p.isTopSaleProduct);

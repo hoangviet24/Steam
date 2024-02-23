@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartRepository,ShoppingCartRepository >(ShoppingCartRepository.GetCart);
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddDbContext<SteamDBContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("SteamDbContextConnection")));
 builder.Services.AddSession();

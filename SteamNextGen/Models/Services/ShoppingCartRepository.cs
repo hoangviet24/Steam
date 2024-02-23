@@ -32,8 +32,6 @@ namespace SteamNextGen.Models.Services
                 {
                     ShoppingCartId = ShoppingCartId,
                     Product = product,
-                   
-                    
                 };
                 dbContext.tttm.Add(shoppingCartItem);
             }
@@ -41,8 +39,7 @@ namespace SteamNextGen.Models.Services
         }
         public void ClearCart()
         {
-            var cartItems = dbContext.tttm.Where(s => s.ShoppingCartId ==
-           ShoppingCartId);
+            var cartItems = dbContext.tttm.Where(s => s.ShoppingCartId ==ShoppingCartId);
             dbContext.tttm.RemoveRange(cartItems);
             dbContext.SaveChanges();
         }

@@ -86,5 +86,39 @@ INSERT INTO [dbo].[Product]
 		   ,0
            ,1)
 GO
+INSERT INTO [dbo].[Product]
+           ([Name]
+           ,[ImageUrl]
+           ,[Detail]
+           ,[Price]
+           ,[isTrendingProduct]
+           ,[isTopSaleProduct]
+           ,[isTopPlayProduct])
+     VALUES
+           ('HellDiver'
+           ,'https://scontent.fsgn5-3.fna.fbcdn.net/v/t39.30808-6/428626305_1853715121745379_4581190619799675547_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_ohc=d5d_2h2t-N8AX-h7Mg4&_nc_ht=scontent.fsgn5-3.fna&oh=00_AfC3kj9kWNdN5t9FcZc3jvl1tjdMY8Ssa9Aia7Ppyp8iBA&oe=65DC733E'
+           ,N'Game không biết hay hay không'
+           ,919000
+           ,1
+		   ,1
+           ,1)
+GO
+INSERT INTO [dbo].[Product]
+           ([Name]
+           ,[ImageUrl]
+           ,[Detail]
+           ,[Price]
+           ,[isTrendingProduct]
+           ,[isTopSaleProduct]
+           ,[isTopPlayProduct])
+     VALUES
+           ('Touhou'
+           ,'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/428616917_1853715125078712_5078046756223077343_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=gWItu-obUNMAX83M9zc&_nc_ht=scontent.fdad3-4.fna&oh=00_AfCPZKfxjH3kPw3pvaOj7trsbkmu_0yiRJuMdwZW_zFgYQ&oe=65DCEBB7'
+           ,N'Game Bắn gà nhưng khó gặp tỉ lần:))'
+           ,385000
+           ,0
+		   ,1
+           ,1)
+GO
 
 

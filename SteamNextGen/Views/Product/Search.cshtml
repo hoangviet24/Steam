@@ -9,7 +9,14 @@
             <li style="background-color:rgba(0,0,0,0.1);color:white" class="list-group-item d-flex justify-content-between">
                 <img width="150px" class="ImgTopsale" src="@item.ImageUrl" alt="">
                 <h4>@item.Name</h4>
-                <p>Free to play</p>
+                    @if (item.Price != 0)
+                    {
+                    <p>Giá tiền: @item.Price.ToString("C")</p>
+                    }
+                    else
+                    {
+                    <p>Free to play</p>
+                    }
             </li>
             </a>
         </ol>

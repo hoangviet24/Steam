@@ -13,6 +13,7 @@ namespace SteamNextGen.Controllers
     public class ProductController : Controller
     {
         public IProductRepository _productRepository;
+        public OrderRepository OrderDetail { get; set; }
         public SteamDBContext _dbContext;
         private char productName;
 
@@ -66,7 +67,11 @@ namespace SteamNextGen.Controllers
         public IActionResult Search(string productname)
         {
             var search = _productRepository.SearchProductByName(productname);
-            return View("Search", search);
+            if (search != null)
+            {
+                return View("Search", search);
+            }
+            else return View("Shop");  
         }
         public IActionResult Library()
         {

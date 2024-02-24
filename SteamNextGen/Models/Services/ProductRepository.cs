@@ -7,8 +7,7 @@ namespace SteamNextGen.Models.Services
     public class ProductRepository : IProductRepository
     {
         private SteamDBContext dbContext;
-        private int OrderDetailId;
-
+        private OrderDetail OrderDetail;
         public ProductRepository(SteamDBContext dbContext)
         {
             this.dbContext = dbContext;

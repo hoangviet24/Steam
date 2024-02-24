@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b775cb1f98beb1c60bfcb67195fbb74d8e4602da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2a78affb01d42d8262433ce6891cfb688d56ce8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SteamNextGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

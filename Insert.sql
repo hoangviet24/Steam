@@ -121,17 +121,82 @@ INSERT INTO [dbo].[Product]
            ,1)
 GO
 
-
+INSERT INTO [dbo].[Product]
+           ([Name]
+           ,[ImageUrl]
+           ,[Detail]
+           ,[Price]
+           ,[isTrendingProduct]
+           ,[isTopSaleProduct]
+           ,[isTopPlayProduct])
+     VALUES
+           ('FIFA22'
+           ,'https://cdn.cloudflare.steamstatic.com/steam/apps/1506830/header.jpg?t=1695934909'
+           ,N'Game free nhưng muốn chơi tốt thì phải P2W:))'
+           ,0
+           ,0
+		   ,1
+           ,1)
+GO
+INSERT INTO [dbo].[Product]
+           ([Name]
+           ,[ImageUrl]
+           ,[Detail]
+           ,[Price]
+           ,[isTrendingProduct]
+           ,[isTopSaleProduct]
+           ,[isTopPlayProduct])
+     VALUES
+           ('Dying Light 2'
+           ,'https://cdn.cloudflare.steamstatic.com/steam/apps/534380/header_alt_assets_28.jpg?t=1708718642'
+           ,N'Game sinh tồn zombie rất hay'
+           ,900000
+           ,1
+		   ,1
+           ,1)
+GO
+INSERT INTO [dbo].[Product]
+           ([Name]
+           ,[ImageUrl]
+           ,[Detail]
+           ,[Price]
+           ,[isTrendingProduct]
+           ,[isTopSaleProduct]
+           ,[isTopPlayProduct])
+     VALUES
+           ('Day Z'
+           ,'https://cdn.cloudflare.steamstatic.com/steam/apps/221100/header.jpg?t=1703605389'
+           ,N'Người đẻ ra Pubg'
+           ,109000
+           ,1
+		   ,1
+           ,1)
+GO
 alter table dbo.AspNetUsers add ProductUser int
 go
 -- Tạo khóa ngoại sau khi tạo bảng
 
 ALTER TABLE dbo.AspNetUsers ADD CONSTRAINT FK_PD FOREIGN KEY(ProductUser) REFERENCES dbo.orderDetail(OrderDetailId)
+ALTER TABLE dbo.orderDetail ADD UserId nvarchar(450)
+-- Tạo khóa ngoại sau khi tạo bảng
+ALTER TABLE dbo.orderDetail
+ADD CONSTRAINT FK_orderDetail_AspNetUsers FOREIGN KEY (UserId) REFERENCES dbo.AspNetUsers(Id);
 
-SELECT distinct OS.Email
+SELECT distinct P.*
 FROM orderDetail OD
 INNER JOIN Product P ON OD.ProductId = P.Id
 INNER JOIN orders OS on OS.Id = OD.OrderId
 INNER JOIN AspNetUsers ANU on ANU.Email = OS.Email
 
-delete dbo.orderDetail where orderDetail.OrderId = Product.Id
+ALTER TABLE dbo.orderDetail
+DROP CONSTRAINT DF_orderDetail_UserId;
+
+select * from dbo.orderDetail
+select * from dbo.orders
+
+delete dbo.orderDetail
+delete dbo.orders
+
+select  P.*
+from orderDetail OD, Product P, orders Os, AspNetUsers ANU
+where OD.ProductId=p.Id and Os.Id = OD.OrderIdand ANU.Id = 'db72967b-919d-4f94-a176-316f0e4e655d'

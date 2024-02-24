@@ -11,20 +11,72 @@
       "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\services\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\models\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\product\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\models\\services\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\services\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\contact\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\order\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\account\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\account\\library.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\product\\shopall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\shopall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\product\\topsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\topsale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\product\\f2p.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\f2p.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\product\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\models\\services\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\services\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\models\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\steam\\steam\\steamnextgen\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,45 +86,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
-              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEsAAAAcAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SteamNextGen\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:42:05.642Z",
+              "WhenOpened": "2024-02-24T04:25:21.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "SteamNextGen\\Controllers\\ShoppingCartController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:40:07.747Z",
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Order\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Order\\Checkout.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Order\\Checkout.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Order\\Checkout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T04:15:18.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Library.cshtml",
-              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\Library.cshtml",
-              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\Library.cshtml",
-              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\Library.cshtml",
-              "RelativeToolTip": "SteamNextGen\\Views\\Product\\Library.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Account\\Library.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Account\\Library.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Account\\Library.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Account\\Library.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-23T12:37:34.684Z",
+              "WhenOpened": "2024-02-24T04:04:50.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Contact\\Contact.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Contact\\Contact.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Contact\\Contact.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Contact\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:53:10.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TopSale.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\TopSale.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\TopSale.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\TopSale.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\TopSale.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:39:22.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "F2P.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\F2P.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\F2P.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\F2P.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\F2P.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:39:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:38:09.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:32:03.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Models\\Services\\OrderRepository.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\OrderRepository.cs",
+              "RelativeToolTip": "SteamNextGen\\Models\\Services\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T03:30:32.644Z",
               "EditorCaption": ""
             },
             {
@@ -83,14 +213,118 @@
               "RelativeDocumentMoniker": "SteamNextGen\\Models\\Services\\ProductRepository.cs",
               "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\ProductRepository.cs",
               "RelativeToolTip": "SteamNextGen\\Models\\Services\\ProductRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAABkAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T12:12:59.025Z",
+              "WhenOpened": "2024-02-24T03:12:46.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Models\\Contact.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Contact.cs",
+              "RelativeToolTip": "SteamNextGen\\Models\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T03:07:41.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SteamNextGen\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T01:40:12.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShopAll.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\ShopAll.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\ShopAll.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Product\\ShopAll.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\ShopAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T01:25:24.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T01:25:20.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Program.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Program.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Program.cs",
+              "RelativeToolTip": "SteamNextGen\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T01:18:28.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SteamNextGen\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T01:07:38.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ShoppingCartRepository.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
+              "RelativeToolTip": "SteamNextGen\\Models\\Services\\ShoppingCartRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:42:05.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "SteamNextGen\\Controllers\\ShoppingCartController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:40:07.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Models\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "SteamNextGen\\Models\\Interface\\IProductRepository.cs",
@@ -99,19 +333,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T12:13:01.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Steam\\Steam\\SteamNextGen\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SteamNextGen\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwE4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T09:39:07.423Z",
               "EditorCaption": ""
             }
           ]

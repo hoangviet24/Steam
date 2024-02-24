@@ -5,12 +5,9 @@ namespace SteamNextGen.Models.Services
 {
     public class OrderRepository : IOrderRepository
     {
-        int temp = 0;
         private SteamDBContext _dbContext;
         private IShoppingCartRepository _shoppingCartRepository;
         public TTTM tTTM ;
-        private int OrderDetailId;
-
         public OrderRepository(SteamDBContext dbContext, IShoppingCartRepository shoppingCartRepository)
         {
             _dbContext = dbContext;
@@ -35,6 +32,5 @@ namespace SteamNextGen.Models.Services
             _dbContext.orders.Add(order);
             _dbContext.SaveChanges();
         }
-        
     }
 }

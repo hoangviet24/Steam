@@ -1,45 +1,9 @@
-﻿@* @model SteamNextGen.Models.Product
-<br />
-<div class="card bg-dark" style="max-width:30rem;height:500px;margin:0 auto;padding:10px;">
-    <img src="@Model.ImageUrl" alt="Website Builder">
-    <div class="card-body">
-        <h3>
-            <strong>@Model.Name</strong>
-        </h3>
-        <h4">@Model.Detail</h4>
-            <div class="cost">
-                @if (Model.Price != 0)
-                {
-                    <span>Giá tiền: @Model.Price.ToString("c")</span>
-                }
-                else
-                {
-                <span>Free to play</span>
-                }
-            </div>
-            <div class="mbr-section-btn pt-3">
-                @if (Model.Price != 0)
-                {
-                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id" class="btn btn-primary display-4">
-                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn">Buy&nbsp;</span>
-                    </a>
-                }
-                else
-                {
-                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id"  class="btn btn-primary display-4">
-                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn">Download&nbsp;</span>
-                    </a>
-                }
-            </div>
-    </div>
-</div>
-<br /> *@
-@model SteamNextGen.Models.Product
+﻿@model SteamNextGen.Models.Product
 <br />
 <div class="card bg-dark" style="max-width:30rem;height:500px;margin:0 auto;padding:10px;">
     <div class="card-wrapper">
         <div class="row align-items-center">
-            <img src="@Model.ImageUrl" alt="Website Builder">
+            <img  src="@Model.ImageUrl" alt="Website Builder">
             <div class="col-12 col-lg">
                 <div class="text-box">
                     <h3>
@@ -59,9 +23,12 @@
                         }
                     </div>
                     <div class="mbr-section-btn pt-3">
-                        <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id" class="btn btn-primary display-4">
-                            <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Download&nbsp;
-                        </a>
+                        <button type="button" class="btn btn-primary display-4" onclick="download()">
+                            <a href="#" class="btn btn-primary display-4" data-download-url="DownloadUrl">
+                                <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Tải xuống&nbsp;
+                            </a>
+                        </button>
+
                         
 
                     </div>
@@ -71,3 +38,16 @@
     </div>
 </div>
 <br/> 
+<script>
+    function download() {
+        if (confirm('Bạn có muốn tải xuống tệp này?')) {
+            // Xử lý xác nhận tải xuống
+            alert('Tệp đang được tải xuống...');
+            return true;
+        } else {
+            // Xử lý hủy tải xuống
+            alert('Tải xuống đã bị hủy.');
+            return false;
+        }
+    }
+</script>

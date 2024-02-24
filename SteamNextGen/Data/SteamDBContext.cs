@@ -10,6 +10,7 @@ namespace SteamNextGen.Data
         public DbSet<Product> Product { get; set; }
         public DbSet<TTTM> tttm { get; set; }
         public DbSet<Order> orders { get; set; }
+        public object Orders { get; internal set; }
         public DbSet<OrderDetail> orderDetail { get; set; }
         public DbSet<Contact> contact { get; set; }
 

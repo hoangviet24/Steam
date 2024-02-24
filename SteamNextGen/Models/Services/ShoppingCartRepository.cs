@@ -12,16 +12,6 @@ namespace SteamNextGen.Models.Services
         }
         public List<TTTM>? ShoppingCartItems { get; set; }
         public string? ShoppingCartId { set; get; }
-        public static ShoppingCartRepository GetCart(IServiceProvider services)
-        {
-            ISession? session =
-           services.GetRequiredService<IHttpContextAccessor>()?.HttpContext?.Session;
-            SteamDBContext context = services.GetService<SteamDBContext>() ??
-           throw new Exception("Error initializing coffeeshopdbcontext");
-            string cartId = session?.GetString("CartId") ?? Guid.NewGuid().ToString();
-            session?.SetString("CartId", cartId);
-            return new ShoppingCartRepository(context) { ShoppingCartId = cartId };
-        }
         public void AddToCart(Product product)
         {
             var shoppingCartItem = dbContext.tttm.FirstOrDefault(s =>

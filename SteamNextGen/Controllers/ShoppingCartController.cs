@@ -17,7 +17,7 @@ namespace SteamNextGen.Controllers
             var items = shoppingCartRepository.GetAllShoppingCartItems();
             shoppingCartRepository.ShoppingCartItems = items;
             ViewBag.TotalCart = shoppingCartRepository.GetShoppingCartTotal();
-            return View(items);
+            return View(shoppingCartRepository.GetAllShoppingCartItems());
         }
         public RedirectToActionResult AddToShoppingCart(int pId)
         {

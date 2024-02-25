@@ -13,6 +13,7 @@ namespace SteamNextGen.Data
         public object Orders { get; internal set; }
         public DbSet<OrderDetail> orderDetail { get; set; }
         public DbSet<Contact> contact { get; set; }
+        public IEnumerable<object> OrderDetails { get; internal set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

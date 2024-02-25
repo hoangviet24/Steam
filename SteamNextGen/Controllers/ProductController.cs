@@ -73,14 +73,5 @@ namespace SteamNextGen.Controllers
             }
             else return View("Shop");  
         }
-        public IActionResult Library()
-        {
-            string productQuery = @"
-                select distinct P.*
-                from orderDetail OD, Product P, orders Os
-                where OD.ProductId=p.Id and Os.Id = OD.OrderId" ;
-            var products = _dbContext.Product.FromSqlRaw(productQuery).ToList();
-            return View(products);
-        }
     }
 }

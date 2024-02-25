@@ -12,6 +12,9 @@
                             <a class="text-decoration-none" asp-controller="Product" asp-action="_Detail" asp-route-id="@item.Id">
                             <li class="list-group-item bg-dark">
                                 <img src="@item.ImageUrl" width="50px"><span style="margin-left:20px;color:white">@item.Name</span>
+                                <a class="text-decoration-none" asp-controller="Account" asp-action="DelItem" asp-route-id="@item.Id">
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                </a>
                             </li>
                             </a>
 

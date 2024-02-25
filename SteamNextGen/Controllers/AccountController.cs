@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 
@@ -21,15 +22,25 @@ namespace SteamNextGen.Controllers
         public async Task<IActionResult> Library()
         {
             var user = await _userManager.GetUserAsync(User);
-            string userId = user?.Id; // Lấy ID người dùng
-
-            // Sử dụng userId để truy xuất dữ liệu...
+            var email = user.UserName;
             string productQuery = $@"
-            select distinct P.*
-from orderDetail OD, Product P, orders Os, AspNetUsers ANU
-where OD.ProductId=p.Id and Os.Id = OD.OrderId  and ANU.Id = '{userId}'";
+        SELECT DISTINCT P.*
+        FROM OrderDetail OD
+        INNER JOIN Product P ON OD.ProductId = P.Id
+        INNER JOIN Orders O ON O.Id = OD.OrderId
+        INNER JOIN AspNetUsers ANU ON ANU.UserName = O.Email
+        WHERE ANU.UserName = '{email}'";
             var products = _dbContext.Product.FromSqlRaw(productQuery).ToList();
             return View(products);
         }
+        
+        public IActionResult DelItem(int id)
+        {
+            var ItemId=_dbContext.orderDetail.FirstOrDefault(p=>p.ProductId == id);
+            _dbContext.orderDetail.RemoveRange(ItemId);
+            _dbContext.SaveChanges();
+            return RedirectToAction("Library");
+        }
+
     }
 }

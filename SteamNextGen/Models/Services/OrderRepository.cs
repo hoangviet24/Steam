@@ -1,13 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 using SteamNextGen.Models.Interface;
+using System.Net.WebSockets;
 namespace SteamNextGen.Models.Services
 {
     public class OrderRepository : IOrderRepository
     {
         private SteamDBContext _dbContext;
         private IShoppingCartRepository _shoppingCartRepository;
-        public TTTM tTTM ;
         public OrderRepository(SteamDBContext dbContext, IShoppingCartRepository shoppingCartRepository)
         {
             _dbContext = dbContext;
@@ -32,5 +33,7 @@ namespace SteamNextGen.Models.Services
             _dbContext.orders.Add(order);
             _dbContext.SaveChanges();
         }
+       
     }
+
 }

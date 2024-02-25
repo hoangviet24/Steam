@@ -16,13 +16,13 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Logout">Logout</a></li>
-                <li><a class="dropdown-item" asp-controller="Account" asp-action="Library">Cộng đồng</a></li>
+                <li><a class="dropdown-item" asp-controller="Account" asp-action="Library">Library</a></li>
             </ul>
         </li>
     </ul>
     }
     else
     {
-    <button style="margin-right:20px" type="button" class="btn btn-secondary"><a class="text-black  link-underline link-underline-opacity-0" asp-area="Identity" asp-page="/Account/Login">Login</a></button>
+    <button style="margin-right:20px" type="button" class="btn btn-secondary"><a class="text-black text-decoration-none " asp-area="Identity" asp-page="/Account/Login">Login</a></button>
     }
 

@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\SteamNextGen.bundle.scp.css"
     },
     {
-      "Id": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
-      "PackagePath": "staticwebassets\\assets\\Image\\home.png"
+      "Id": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\Home.png",
+      "PackagePath": "staticwebassets\\assets\\Image\\Home.png"
+    },
+    {
+      "Id": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\assets\\Image\\Logo.png"
     },
     {
       "Id": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\bootstrap\\css\\bootstrap-grid.min.css",

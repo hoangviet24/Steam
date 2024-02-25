@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using SteamNextGen.Data;
+using SteamNextGen.Models;
 
 namespace SteamNextGen.Controllers
 {
@@ -18,7 +20,6 @@ namespace SteamNextGen.Controllers
             _userManager = userManager;
             _dbContext = steamDB;
         }
-
         public async Task<IActionResult> Library()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -34,9 +35,11 @@ namespace SteamNextGen.Controllers
             return View(products);
         }
         
-        public IActionResult DelItem(int id)
+        public async Task<IActionResult> DelItem(Product prod   )
         {
-            var ItemId=_dbContext.orderDetail.FirstOrDefault(p=>p.ProductId == id);
+            var user = await _userManager.GetUserAsync(User);
+            var email = user.UserName;
+            var ItemId = _dbContext.orderDetail.FirstOrDefault(s =>s.Product.Id == prod.Id && s.Order.Email == email);
             _dbContext.orderDetail.RemoveRange(ItemId);
             _dbContext.SaveChanges();
             return RedirectToAction("Library");

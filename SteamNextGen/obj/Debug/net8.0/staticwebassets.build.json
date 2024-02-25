@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yKTiloq7QK+i59R6fXrPvJDqNxARlUxZf9lY0XcuYR8=",
+  "Hash": "XIM0JAeHCzWu9OsCLu5KixzUyJvdVNpF3nOMvDjusPQ=",
   "Source": "SteamNextGen",
   "BasePath": "_content/SteamNextGen",
   "Mode": "Default",
@@ -1328,12 +1328,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\formoid\\formoid.min.js"
     },
     {
-      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\home.png",
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\Home.png",
       "SourceId": "SteamNextGen",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
       "BasePath": "_content/SteamNextGen",
-      "RelativePath": "assets/Image/home.png",
+      "RelativePath": "assets/Image/Home.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1344,7 +1344,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\Image\\home.png"
+      "OriginalItemSpec": "wwwroot\\assets\\Image\\Home.png"
+    },
+    {
+      "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\Image\\Logo.png",
+      "SourceId": "SteamNextGen",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\",
+      "BasePath": "_content/SteamNextGen",
+      "RelativePath": "assets/Image/Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Image\\Logo.png"
     },
     {
       "Identity": "D:\\Steam\\Steam\\SteamNextGen\\wwwroot\\assets\\mobirise\\css\\mbr-additional.css",

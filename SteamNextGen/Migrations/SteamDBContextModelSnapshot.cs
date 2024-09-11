@@ -86,11 +86,6 @@ namespace SteamNextGen.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -142,10 +137,6 @@ namespace SteamNextGen.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
-
-                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -284,13 +275,7 @@ namespace SteamNextGen.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("orders");
                 });
@@ -365,7 +350,7 @@ namespace SteamNextGen.Migrations
                         {
                             Id = 1,
                             Detail = "Một tựa game Esport ",
-                            ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=K6GB57jAuzIAX9EjOhL&_nc_ht=scontent.fsgn8-2.fna&oh=00_AfDtcstwEg_V4B9AEClDlJSq0Eyp1amsjhThADTR4PX5dA&oe=65DD2417",
+                            ImageUrl = "https://scontent.fsgn8-2.fna.fbcdn.net/v/t39.30808-6/423194553_1837787356671489_8732348031602822991_n.jpg?stp=dst-jpg_s600x600&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HELe27VrNcYQ7kNvgFgs7Ns&_nc_ht=scontent.fsgn8-2.fna&_nc_gid=AVRnMjWqnFngYQqnfxCON9R&oh=00_AYCk2dqOdpU47ohPEsnlJ3gel0Xudeg6lAVfpmqEbzCS1g&oe=66E5E957",
                             Name = "Counter Strike",
                             Price = 0f,
                             isTopPlayProduct = false,
@@ -442,13 +427,6 @@ namespace SteamNextGen.Migrations
                     b.ToTable("tttm");
                 });
 
-            modelBuilder.Entity("SteamNextGen.Models.User", b =>
-                {
-                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
-
-                    b.HasDiscriminator().HasValue("User");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -498,17 +476,6 @@ namespace SteamNextGen.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("SteamNextGen.Models.Order", b =>
-                {
-                    b.HasOne("SteamNextGen.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SteamNextGen.Models.OrderDetail", b =>

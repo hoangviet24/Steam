@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zNPYhBxxzf7sArTddumcKEo8d/aBTACIXlS0P9BJsrbPDiEY476u/E6aGjf26eYlqZ9mAksecKjuNT2fv03LPQ==",
+  "dgSpecHash": "y6yIKQ/Vmqs=",
   "success": true,
-  "projectFilePath": "D:\\Steam\\Steam\\SteamNextGen\\SteamNextGen.csproj",
+  "projectFilePath": "D:\\C#\\Game\\SteamNextGen\\SteamNextGen.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

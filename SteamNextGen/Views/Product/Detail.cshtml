@@ -1,81 +1,47 @@
-﻿@* @model SteamNextGen.Models.Product
-<br />
-<div class="card bg-dark" style="max-width:30rem;height:500px;margin:0 auto;padding:10px;">
-    <img src="@Model.ImageUrl" alt="Website Builder">
-    <div class="card-body">
-        <h3>
-            <strong>@Model.Name</strong>
+﻿@model ProductDetailViewModel
+@{
+    var isowned = Model.IsOwned; // Sử dụng Model.IsOwned để kiểm tra sở hữu
+}
+<div class="card bg-dark text-white shadow-lg rounded" style="max-width: 30rem; height: 100%; margin: 0 auto; padding: 20px;">
+    <div class="card-body text-center">
+        <img src="@Model.Product.ImageUrl" alt="Product Image" class="img-fluid rounded mb-3" style="max-height: 250px; object-fit: cover;">
+        <h3 class="card-title">
+            <strong>@Model.Product.Name</strong>
         </h3>
-        <h4">@Model.Detail</h4>
-            <div class="cost">
-                @if (Model.Price != 0)
+        <p class="card-text">
+            @Model.Product.Detail
+        </p>
+        <div class="cost mb-3">
+            @if (Model.Product.Price != 0)
+            {
+                <span class="text-warning">Giá tiền: @Model.Product.Price.ToString("c")</span>
+            }
+            else
+            {
+                <span class="text-success">Free to play</span>
+            }
+        </div>
+        <div class="mbr-section-btn">
+            @if (isowned)
+            {
+                <span class="text-success">Đã sở hữu</span>
+            }
+            else
+            {
+                @if (Model.Product.Price != 0)
                 {
-                    <span>Giá tiền: @Model.Price.ToString("c")</span>
-                }
-                else
-                {
-                <span>Free to play</span>
-                }
-            </div>
-            <div class="mbr-section-btn pt-3">
-                @if (Model.Price != 0)
-                {
-                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id" class="btn btn-primary display-4">
-                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn">Buy&nbsp;</span>
+                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Product.Id" class="btn btn-primary display-4">
+                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span> Buy&nbsp;
                     </a>
                 }
                 else
                 {
-                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id"  class="btn btn-primary display-4">
-                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn">Download&nbsp;</span>
+                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Product.Id" class="btn btn-success display-4">
+                        <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span> Donwload&nbsp;
                     </a>
                 }
-            </div>
-    </div>
-</div>
-<br /> *@
-@model SteamNextGen.Models.Product
-<br />
-<div class="card bg-dark" style="max-width:30rem;height:500px;margin:0 auto;padding:10px;">
-    <div class="card-wrapper">
-        <div class="row align-items-center">
-            <img src="@Model.ImageUrl" alt="Website Builder">
-            <div class="col-12 col-lg">
-                <div class="text-box">
-                    <h3>
-            <strong>@Model.Name</strong>
-        </h3>
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        @Model.Detail
-                    </p>
-                    <div class="cost">
-                        @if (Model.Price != 0)
-                        {
-                            <span>Giá tiền: @Model.Price.ToString("c")</span>
-                        }
-                        else
-                        {
-                            <span>Free to play</span>
-                        }
-                    </div>
-                    <div class="mbr-section-btn pt-3">
-                        @if(Model.Price != 0)
-                        {
-                            <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id" class="btn btn-primary display-4">
-                                <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Buy&nbsp;
-                            </a>
-                        }
-                        else
-                        {
-                            <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@Model.Id" class="btn btn-primary display-4">
-                                <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Download&nbsp;
-                            </a>
-                        }
-
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>
-<br/> 
+<br />

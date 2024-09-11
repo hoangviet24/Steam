@@ -1,0 +1,63 @@
+﻿@model Admin.Models.EditUserViewModel
+
+<form asp-action="Edit">
+    <div class="form-group">
+        <label asp-for="UserName"></label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+    </div>
+
+    <!-- Mật khẩu hiện tại để xác thực -->
+    <div class="mb-3 position-relative">
+        <label asp-for="CurrentPassword" class="form-label">Current Password</label>
+        <div class="input-group">
+            <input asp-for="CurrentPassword" id="currentPasswordInput" class="form-control" type="password" autocomplete="current-password" placeholder="Current Password" />
+            <span class="input-group-text">
+                <i id="toggleCurrentPassword" class="bi bi-eye cursor-pointer" style="font-size: 1.25rem;"></i>
+            </span>
+        </div>
+        <span asp-validation-for="CurrentPassword" class="text-danger"></span>
+    </div>
+
+    <!-- Mật khẩu mới -->
+    <div class="mb-3 position-relative">
+        <label asp-for="NewPassword" class="form-label">New Password</label>
+        <div class="input-group">
+            <input asp-for="NewPassword" id="newPasswordInput" class="form-control" type="password" autocomplete="new-password" placeholder="New Password" />
+            <span class="input-group-text">
+                <i id="toggleNewPassword" class="bi bi-eye cursor-pointer" style="font-size: 1.25rem;"></i>
+            </span>
+        </div>
+        <span asp-validation-for="NewPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('toggleCurrentPassword').addEventListener('click', function (e) {
+            const currentPasswordInput = document.getElementById('currentPasswordInput');
+            const type = currentPasswordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            currentPasswordInput.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
+
+        document.getElementById('toggleNewPassword').addEventListener('click', function (e) {
+            const newPasswordInput = document.getElementById('newPasswordInput');
+            const type = newPasswordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            newPasswordInput.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
+    </script>
+}

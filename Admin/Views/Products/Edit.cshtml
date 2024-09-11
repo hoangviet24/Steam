@@ -1,0 +1,73 @@
+﻿@model SteamNextGen.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-4">
+    <h1>Edit Product</h1>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Product Details</h4>
+            <hr />
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ImageUrl" class="form-label"></label>
+                    <input asp-for="ImageUrl" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Detail" class="form-label"></label>
+                    <textarea asp-for="Detail" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Detail" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Price" class="form-label"></label>
+                    <input asp-for="Price" type="number" step="0.01" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input class="form-check-input" asp-for="isTrendingProduct" type="checkbox" />
+                    <label class="form-check-label" asp-for="isTrendingProduct">
+                        @Html.DisplayNameFor(model => model.isTrendingProduct)
+                    </label>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input class="form-check-input" asp-for="isTopSaleProduct" type="checkbox" />
+                    <label class="form-check-label" asp-for="isTopSaleProduct">
+                        @Html.DisplayNameFor(model => model.isTopSaleProduct)
+                    </label>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input class="form-check-input" asp-for="isTopPlayProduct" type="checkbox" />
+                    <label class="form-check-label" asp-for="isTopPlayProduct">
+                        @Html.DisplayNameFor(model => model.isTopPlayProduct)
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Steam\\Steam\\SteamNextGen\\SteamNextGen.csproj": {}
+    "D:\\C#\\Game\\SteamNextGen\\SteamNextGen.csproj": {}
   },
   "projects": {
-    "D:\\Steam\\Steam\\SteamNextGen\\SteamNextGen.csproj": {
+    "D:\\C#\\Game\\SteamNextGen\\SteamNextGen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Steam\\Steam\\SteamNextGen\\SteamNextGen.csproj",
+        "projectUniqueName": "D:\\C#\\Game\\SteamNextGen\\SteamNextGen.csproj",
         "projectName": "SteamNextGen",
-        "projectPath": "D:\\Steam\\Steam\\SteamNextGen\\SteamNextGen.csproj",
+        "projectPath": "D:\\C#\\Game\\SteamNextGen\\SteamNextGen.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\Steam\\Steam\\SteamNextGen\\obj\\",
+        "outputPath": "D:\\C#\\Game\\SteamNextGen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

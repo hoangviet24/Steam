@@ -1,0 +1,60 @@
+﻿@model SteamNextGen.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-4">
+    <h1>@Model.Name</h1>
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@Model.ImageUrl" class="img-fluid rounded-start" alt="@Model.Name">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Name</h5>
+                    <p class="card-text">@Model.Detail</p>
+                    <p class="card-text">
+                        <strong>Price:</strong> @Model.Price.ToString("C")
+                    </p>
+                    <p class="card-text">
+                        <strong>Trending Product:</strong>
+                        @if (Model.isTrendingProduct)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">No</span>
+                        }
+                    </p>
+                    <p class="card-text">
+                        <strong>Top Sale Product:</strong>
+                        @if (Model.isTopSaleProduct)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">No</span>
+                        }
+                    </p>
+                    <p class="card-text">
+                        <strong>Top Play Product:</strong>
+                        @if (Model.isTopPlayProduct)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">No</span>
+                        }
+                    </p>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+                    <a class="btn btn-secondary" asp-action="Index">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

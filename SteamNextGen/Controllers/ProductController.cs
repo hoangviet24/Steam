@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using SteamNextGen.Data;
 using SteamNextGen.Models;
@@ -15,31 +16,64 @@ namespace SteamNextGen.Controllers
         public IProductRepository _productRepository;
         public OrderRepository OrderDetail { get; set; }
         public SteamDBContext _dbContext;
+        private readonly UserManager<IdentityUser> _userManager;
         private char productName;
 
-        public ProductController(IProductRepository productRepository,SteamDBContext steamDB)
+        public ProductController(IProductRepository productRepository,SteamDBContext steamDB, UserManager<IdentityUser> userManager)
         {
             this._productRepository = productRepository;
             this._dbContext = steamDB;
+            this._userManager = userManager;
         }
-        public IActionResult Detail(int id)
+        public async Task<IActionResult> Detail(int id)
         {
+            // Lấy thông tin sản phẩm đồng bộ
             var product = _productRepository.GetProductDetail(id);
-            if (product != null)
+            if (product == null)
             {
-                return View(product);
+                return NotFound();
             }
-            return NotFound();
-        }
-        public IActionResult _Detail(int id)
-        {
-            var product = _productRepository.GetProductDetail(id);
-            if (product != null)
+
+            // Lấy thông tin người dùng hiện tại
+            var user = await _userManager.GetUserAsync(User);
+            var email = user?.UserName;
+
+            // Kiểm tra xem sản phẩm đã sở hữu chưa
+            var isOwnedQuery = $@"
+    SELECT CASE WHEN EXISTS (
+        SELECT 1
+        FROM OrderDetail OD
+        INNER JOIN Orders O ON O.Id = OD.OrderId
+        INNER JOIN AspNetUsers ANU ON ANU.UserName = O.Email
+        WHERE OD.ProductId = @id AND ANU.UserName = @username
+    ) THEN 1 ELSE 0 END AS IsOwned";
+
+            bool isOwned;
+            using (var connection = _dbContext.Database.GetDbConnection())
             {
-                return View(product);
+                await connection.OpenAsync();
+                using (var command = connection.CreateCommand())
+                {
+                    command.CommandText = isOwnedQuery;
+                    command.Parameters.Add(new SqlParameter("@id", id));
+                    command.Parameters.Add(new SqlParameter("@username", email));
+
+                    var result = await command.ExecuteScalarAsync();
+                    isOwned = Convert.ToInt32(result) == 1;
+                }
             }
-            return NotFound();
+
+            // Tạo ViewModel
+            var viewModel = new ProductDetailViewModel
+            {
+                Product = product,
+                IsOwned = isOwned
+            };
+
+            return View(viewModel);
         }
+
+
         public IActionResult Shop()
         {
             return View(_productRepository.GetTrendingProducts());
@@ -73,5 +107,6 @@ namespace SteamNextGen.Controllers
             }
             else return View("Shop");  
         }
+
     }
 }

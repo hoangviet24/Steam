@@ -1,36 +1,27 @@
-﻿<div style="margin-top:30px" class="container text-center">
-    <div class="row">
+﻿  <div class="container">
+        <div class="row">
         @foreach (var item in Model)
         {
-            <div class="col" style="margin-bottom:20px">
-                <a asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-                    <img width="300px" height="150px" class="ImgGamehot" src="@item.ImageUrl" alt="">
-                    <h4>@item.Name</h4>
-                    @if (item.Price != 0)
-                    {
-                        <p>Giá tiền: @item.Price.ToString("C")</p>
-                    }
-                    else
-                    {
-                        <p>Free to play</p>
-                    }
-                </a>
-                <div class="mbr-section-btn pt-3">
-                    @if (item.Price != 0)
-                    {
-                        <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
-                            <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Buy&nbsp;
-                        </a>
-                    }
-                    else
-                    {
-                        <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pId="@item.Id" class="btn btn-primary display-4">
-                            <span class="mbrib-cart-add mbr-iconfont mbr-iconfont-btn"></span>Download&nbsp;
-                        </a>
-                    }
-                </div>
-            </div>
-
+                    <div class="col-md-4 mb-4">
+                        <div class="card bg-dark text-white shadow rounded">
+                            <a class="text-decoration-none" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
+                                <img src="@item.ImageUrl" class="card-img-top rounded-top" alt="Product Image" style="height: 200px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@item.Name</h5>
+                                    <p class="card-text">
+                                @if (item.Price != 0)
+                                {
+                                                <span class="text-warning">Giá tiền: @item.Price.ToString("C")</span>
+                                }
+                                else
+                                {
+                                                <span class="text-success">Free to play</span>
+                                }
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
         }
+        </div>
     </div>
-</div>

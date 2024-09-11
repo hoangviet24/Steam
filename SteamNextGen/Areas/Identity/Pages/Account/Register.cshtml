@@ -4,42 +4,66 @@
     ViewData["Title"] = "Register";
 }
 
-    <h1>@ViewData["Title"]</h1>
+<h1 class="text-center">@ViewData["Title"]</h1>
 
-    <div class="row">
-        <div class="col-md-4">
-            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                <h2>Create a new account.</h2>
-                <hr />
-                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-                <div class="form-floating mb-3">
-                <p>Email</p>
-                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+<div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="card p-4 shadow-sm bg-white text-dark">
+            <h2 class="text-center mb-4">Create a new account</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3 position-relative">
+                <label asp-for="Input.Password" class="form-label">Password</label>
+                <div class="input-group">
+                    <input asp-for="Input.Password" id="passwordInput" class="form-control" type="password" autocomplete="current-password" placeholder="password" />
+                    <span class="input-group-text">
+                        <i id="togglePassword" class="bi bi-eye cursor-pointer" style="font-size: 1.25rem;"></i>
+                    </span>
                 </div>
-                <div class="form-floating mb-3">
-                <p>Password</p>
-                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                    
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="mb-3 position-relative">
+                <label asp-for="Input.ConfirmPassword" class="form-label">Confirm Password</label>
+                <div class="input-group">
+                    <input asp-for="Input.ConfirmPassword" id="confirmPasswordInput" class="form-control" type="password" autocomplete="current-password" placeholder="password" />
+                    <span class="input-group-text">
+                        <i id="toggleConfirmPassword" class="bi bi-eye cursor-pointer" style="font-size: 1.25rem;"></i>
+                    </span>
                 </div>
-                <div class="form-floating mb-3">
-                <p>Confirm Password</p>
-                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-                </div>
-                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-                <div>
-                    <p>
-                        <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">You have a account. Login</a>
-                    </p>
-                </div>
-            </form>
-        </div>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+            <div class="text-center mt-3">
+                <p>
+                    <a style="color:black" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Already have an account? Login</a>
+                </p>
+            </div>
+        </form>
     </div>
-
-
+</div>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('togglePassword').addEventListener('click', function (e) {
+            const passwordInput = document.getElementById('passwordInput');
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
+
+        document.getElementById('toggleConfirmPassword').addEventListener('click', function (e) {
+            const confirmPasswordInput = document.getElementById('confirmPasswordInput');
+            const type = confirmPasswordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            confirmPasswordInput.setAttribute('type', type);
+            this.classList.toggle('bi-eye');
+            this.classList.toggle('bi-eye-slash');
+        });
+    </script>
 }

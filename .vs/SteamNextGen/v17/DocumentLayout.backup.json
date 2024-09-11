@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|d:\\c#\\game\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|solutionrelative:admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|d:\\c#\\game\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|solutionrelative:admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|d:\\c#\\game\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9027827-341E-427B-890B-FAC26C30C730}|Admin\\Admin.csproj|solutionrelative:admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\c#\\game\\steamnextgen\\views\\product\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\c#\\game\\steamnextgen\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|d:\\c#\\game\\steamnextgen\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F70314C1-58EE-4C43-83CF-625D149D5FC3}|SteamNextGen\\SteamNextGen.csproj|solutionrelative:steamnextgen\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\Game\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\C#\\Game\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T11:28:02.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C#\\Game\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C#\\Game\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T11:24:40.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\C#\\Game\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\C#\\Game\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T11:22:17.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\C#\\Game\\SteamNextGen\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\C#\\Game\\SteamNextGen\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T11:15:31.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "D:\\C#\\Game\\SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "RelativeDocumentMoniker": "SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "ToolTip": "D:\\C#\\Game\\SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "RelativeToolTip": "SteamNextGen\\Views\\Product\\Shop.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T10:52:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\C#\\Game\\SteamNextGen\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SteamNextGen\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\C#\\Game\\SteamNextGen\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SteamNextGen\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:38:54.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

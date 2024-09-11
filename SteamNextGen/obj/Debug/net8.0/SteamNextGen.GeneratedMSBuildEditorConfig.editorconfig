@@ -17,127 +17,123 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SteamNextGen
 build_property.RootNamespace = SteamNextGen
-build_property.ProjectDir = D:\Steam\Steam\SteamNextGen\
+build_property.ProjectDir = D:\C#\Game\SteamNextGen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Steam\Steam\SteamNextGen
+build_property.MSBuildProjectDirectory = D:\C#\Game\SteamNextGen
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/C\#/Game/SteamNextGen/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Account/Library.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Account/Library.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMaWJyYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Contact/Contact.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Contact/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Contact/ContactComplete.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Contact/ContactComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDb250YWN0Q29tcGxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Order/Checkout.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Order/CheckoutComplete.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Order/CheckoutComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/Detail.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/F2P.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/F2P.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxGMlAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/Library.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/Library.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxMaWJyYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/P2P.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/P2P.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQMlAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/Search.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/Shop.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/ShopAll.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/ShopAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTaG9wQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/TopPlay.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/TopPlay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUb3BQbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/TopSale.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Product/TopSale.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUb3BTYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Product/_Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxfRGV0YWlsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Steam/Steam/SteamNextGen/Views/Shared/Error.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Shared/_LoginPartial.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/ShoppingCart/Index.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/_ViewImports.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/_ViewStart.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Steam/Steam/SteamNextGen/Views/Shared/_Layout.cshtml]
+[D:/C\#/Game/SteamNextGen/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ozvdjtu4ho

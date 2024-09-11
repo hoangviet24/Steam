@@ -1,16 +1,29 @@
 ﻿@model IEnumerable<SteamNextGen.Models.Product>
 <h5  class="title">Game trả phí</h5>
-@foreach (var item in Model)
-{
-    <ol class="list-group list-group-numbered">
-        <a style="text-decoration:none" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
-            <li style="background-color:rgba(0,0,0,0.1);color:white" class="list-group-item d-flex justify-content-between">
-                <img width="150px" class="ImgTopsale" src="@item.ImageUrl" alt="">
-                <h4>@item.Name</h4>
-                <p>Giá tiền: @item.Price.ToString("C")</p>
-            </li
-        </a>
-    </ol>
-    
-    
-}
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card bg-dark text-white shadow rounded">
+                    <a class="text-decoration-none" asp-controller="Product" asp-action="Detail" asp-route-id="@item.Id">
+                        <img src="@item.ImageUrl" class="card-img-top rounded-top" alt="Product Image" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="card-text">
+                                @if (item.Price != 0)
+                                {
+                                    <span class="text-warning">Giá tiền: @item.Price.ToString("C")</span>
+                                }
+                                else
+                                {
+                                    <span class="text-success">Free to play</span>
+                                }
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
